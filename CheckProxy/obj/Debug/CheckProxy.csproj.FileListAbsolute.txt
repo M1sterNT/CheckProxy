@@ -1,0 +1,7 @@
+C:\Users\MisterNT\source\repos\CheckProxy\CheckProxy\bin\Debug\CheckProxy.exe.config
+C:\Users\MisterNT\source\repos\CheckProxy\CheckProxy\bin\Debug\CheckProxy.exe
+C:\Users\MisterNT\source\repos\CheckProxy\CheckProxy\bin\Debug\CheckProxy.pdb
+C:\Users\MisterNT\source\repos\CheckProxy\CheckProxy\obj\Debug\CheckProxy.csprojResolveAssemblyReference.cache
+C:\Users\MisterNT\source\repos\CheckProxy\CheckProxy\obj\Debug\CheckProxy.csproj.CoreCompileInputs.cache
+C:\Users\MisterNT\source\repos\CheckProxy\CheckProxy\obj\Debug\CheckProxy.exe
+C:\Users\MisterNT\source\repos\CheckProxy\CheckProxy\obj\Debug\CheckProxy.pdb

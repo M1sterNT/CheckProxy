@@ -1,0 +1,6 @@
+C:\Users\MisterNT\source\repos\CheckProxy\CheckProxy\bin\Release\CheckProxy.exe.config
+C:\Users\MisterNT\source\repos\CheckProxy\CheckProxy\bin\Release\CheckProxy.exe
+C:\Users\MisterNT\source\repos\CheckProxy\CheckProxy\bin\Release\CheckProxy.pdb
+C:\Users\MisterNT\source\repos\CheckProxy\CheckProxy\obj\Release\CheckProxy.csproj.CoreCompileInputs.cache
+C:\Users\MisterNT\source\repos\CheckProxy\CheckProxy\obj\Release\CheckProxy.exe
+C:\Users\MisterNT\source\repos\CheckProxy\CheckProxy\obj\Release\CheckProxy.pdb

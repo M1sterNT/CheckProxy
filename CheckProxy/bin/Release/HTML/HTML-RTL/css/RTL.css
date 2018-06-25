@@ -1,0 +1,780 @@
+/*------------------------------------------------------------------
+ * Theme Name: SKYHOST - WHMCS & HTML Responsive Domain & Web Hosting Template
+ * Author: coodiv
+ * Author URI: http://coodiv.net/
+ * Author URI: https://themeforest.net/user/coodiv
+ * Description: A Bootstrap Responsive Domain & Web Hosting Template + WHMCS theme
+ * Version: 1.0
+ * Bootstrap v3.3.7 (http://getbootstrap.com)
+ * Copyright 2017 coodiv.
+ -------------------------------------------------------------------*/
+
+ @import url('https://fonts.googleapis.com/css?family=Cairo:200,400,700');
+
+body {
+    font-family: 'Cairo', sans-serif;
+}
+ 
+
+@media (min-width: 768px) {
+.navbar-left .dropdown-menu {
+    right: auto;
+    left: auto;
+}
+
+.navbar-left .login-areadwn{
+    left: 0 !important;
+}
+
+
+}
+
+
+
+@media (min-width: 768px) {
+.main-nav .navbar-left>li>a {
+    color: #fff;
+    font-weight: 500;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 52px 25px;
+    position: relative;
+}
+.main-nav .navbar-left>li>a:after {
+    content: '';
+    height: 2px;
+    width: 0;
+    background: #fff;
+    bottom: 44px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+.main-nav .navbar-left>li>a:hover:after {
+    content: '';
+    height: 2px;
+    width: 50%;
+    background: #fff;
+    bottom: 44px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+.main-nav .navbar-left>li>a:hover,.main-nav .navbar-left>li>a:focus,.main-nav .navbar-left>li>a:active  {
+    color: #fff;
+    background: rgba(1, 8, 12, 0.35) ;
+}
+
+}
+
+@media (min-width: 768px) {
+.login-btn {
+    text-transform: capitalize;
+    background: rgb(85, 200, 232);
+    color: #ffffff;
+    padding: 6px 31px !important;
+    border-radius: 40px;
+    margin: 46px 0px;
+    margin-left: 0;
+	margin-right: 17px;
+    -webkit-box-shadow: 0px 0px 43px -1px rgba(0,0,0,0.95);
+    -moz-box-shadow: 0px 0px 43px -1px rgba(0,0,0,0.95);
+    box-shadow: 0px 0px 43px -1px rgba(0, 0, 0, 0.95);
+}
+}
+
+.domain-section .big-title {
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+
+.domain-section .head-light-title {
+    color: #fff;
+    font-size: 38px;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 65px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+
+
+
+#domain-search input[type="text"] {
+    font-size: 13px;
+}
+
+
+.timer span {
+    font-size: 14px;
+}
+
+#fetures-section .fetures-place {
+    direction: ltr;
+}
+
+#fetures-section .fetures-place h5 {
+    font-family: 'Cairo', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+
+#fetures-section .fetures-place p {
+    font-size: 12px;
+    font-weight: 100;
+    color: #a2acb5;
+}
+
+#fetures-section .fetures-place span {
+    font-family: 'Cairo', sans-serif;
+    line-height: 25px;
+}
+
+.boldtrin b {
+    z-index: 1;
+    position: relative;
+    font-size: 17px;
+    text-transform: uppercase;
+    -ms-transform: rotate(-41deg);
+    -webkit-transform: rotate(-41deg);
+    transform: rotate(-43deg);
+    color: #fff;
+    display: block;
+    padding: 0px;
+    margin-left: 31px;
+}
+
+
+#hositng-plans .head-tittle h5 {
+    font-size: 15px;
+}
+
+
+#hositng-plans .head-tittle span {
+    font-family: 'Cairo', sans-serif;
+    font-size: 11px;
+}
+
+
+#fetures-section .fetures-place a {
+    letter-spacing: 0;
+    font-size: 12px;
+}
+
+#hositng-plans .pricing-container .plan .paln-head {
+    background-size: 100%;
+    height: 154px;
+    text-align: center;
+    padding-top: 50px;
+    position: relative;
+    border-radius: 12px 12px 0 0;
+}
+
+#hositng-plans .pricing-container .plan .paln-head>span {
+    z-index: 2;
+    position: relative;
+    color: #fff;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#hositng-plans .pricing-container .plan .paln-head>span>i {
+    font-weight: 100;
+    display: block;
+    color: #fff;
+    position: relative;
+    z-index: 3;
+    font-size: 12px;
+    margin-top: -4px;
+    font-family: 'Cairo', sans-serif;
+}
+
+
+#hositng-plans .pricing-container .plan .plans-tag {
+    font-size: 12px;
+    font-family: 'Cairo', sans-serif;
+}
+
+#hositng-plans .pricing-container .plan .plans-body ul>li>i {
+    margin-right: 0;
+    margin-left: 5px;
+}
+
+#hositng-plans .pricing-container .plan .plans-body ul>li {
+    list-style: none;
+    margin: 18px 0;
+    font-size: 12px;
+    cursor: pointer;
+    color: #9ba6af;
+    font-family: 'Cairo', sans-serif;
+}
+
+#hositng-plans .whyus h5 {
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 0;
+    color: rgba(7, 38, 59, 0.75);
+}
+
+#hositng-plans .whyus h4 {
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #05253a;
+}
+
+#hositng-plans .whyus h4>span {
+    display: block;
+    font-weight: 100;
+    font-size: 12px;
+    margin-top: 18px;
+    text-transform: capitalize;
+    font-family: 'Cairo', sans-serif;
+    color: rgba(5, 37, 58, 0.91);
+}
+
+#hositng-plans .ftr-host {
+    padding: 36px 40px;
+    border-left: 1px solid #eff2f3;
+    border-bottom: 1px solid #eff2f3;
+    cursor: pointer;
+    border-radius: 0;
+	border-right: 0;
+}
+
+#hositng-plans .no-right {
+    border-left: 0;
+}
+
+#hositng-plans .ftr-host h5 {
+    font-weight: bold;
+    font-size: 13px;
+    text-transform: capitalize;
+    letter-spacing: 0;
+    margin-top: 18px;
+    color: #647a88;
+}
+
+#hositng-plans .ftr-host p {
+    display: block;
+    font-weight: 100;
+    color: rgba(5, 37, 58, 0.85);
+    text-transform: capitalize;
+    font-family: 'Cairo', sans-serif;
+    font-size: 12px;
+}
+
+#facts h5 {
+    text-align: center;
+    font-size: 21px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #05253a;
+}
+
+#facts h5>span {
+    display: block;
+    font-weight: 500;
+    font-size: 12px;
+    font-family: 'Cairo', sans-serif;
+    margin-top: 10px;
+    text-transform: capitalize;
+    color: rgba(5, 37, 58, 0.54);
+}
+
+#facts  h6 {
+    font-size: 16px !important;
+}
+
+#facts  p {
+    font-size: 12px  !important;
+    font-family: 'Cairo', sans-serif  !important;
+}
+
+#blog .post-show .info-post span>a {
+
+    float: right;
+}
+
+#blog .blog-titte h5 {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-size: 21px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #05253a;
+}
+
+
+#blog .blog-titte h5>span {
+    display: block;
+    font-weight: 500;
+    font-family: 'Cairo', sans-serif;
+    font-size: 12px;
+    margin-top: 5px;
+    text-transform: capitalize;
+    color: rgba(5, 37, 58, 0.54);
+}
+
+#blog .post-show .post-sub h2>a {
+    display: block;
+    color: rgba(4, 37, 50, 0.96);
+    font-weight: 500;
+    font-family: 'Cairo', sans-serif;
+    font-size: 14px;
+    margin-top: 9px;
+}
+
+#blog .post-show .post-cont-wrap {
+    margin-top: -5px;
+    padding: 0 20px 20px 20px;
+    font-weight: normal;
+    font-family: 'Cairo', sans-serif;
+    font-size: 12px;
+}
+
+#footer-area .phone-support {
+    background: #f3f3f3;
+    padding: 16px 33px;
+    border-radius: 0 4px 4px 0;
+    margin-left: 40px;
+    margin-top: -30px;
+    margin-right: 0;
+}
+
+#footer-area .phone-support:after {
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 115px 70px 0 0;
+    border-color: transparent #f3f3f3 transparent transparent;
+    position: absolute;
+    top: -30px;
+    right: auto;
+    left: -15px;
+}
+
+#footer-area .msj-send-area {
+    margin-left: 0;
+    margin-right: 50px;
+}
+
+
+ul.social-links .social-icon {
+    float: right;
+}
+
+
+ul.social-links .social-icon a span {
+    float: right;
+}
+
+.megamenucontainpadding .megamenu-hosting a>i {
+    float: right;
+    margin-right: 0;
+	margin-left: 16px;
+}
+
+.megamenucontainpadding .megamenu-hosting .tittlespan {
+    float: right;
+	font-size: 13px;
+}
+
+.megamenucontainpadding .megamenu-hosting .subtittlespan {
+    float: right;
+    font-family: tahoma;
+    font-size: 11px;
+}
+
+#footer-area .phone-support h6>span {
+    font-family: tahoma;
+    font-weight: 100;
+    font-size: 13px;
+}
+
+#footer-area .msj-send-area .head-tittle {
+    color: #e5e8ea;
+    font-weight: 100;
+    text-transform: capitalize;
+    font-size: 12px !important;
+    font-family: 'Cairo', sans-serif !important;
+}
+
+#footer-area .footer-links h4 {
+    color: #fff;
+    font-weight: bold;
+    margin-top: 27px;
+    font-family: 'Cairo', sans-serif;
+}
+
+#footer-area .footer-links ul>li>a {
+    font-family: 'Cairo', sans-serif !important;
+    font-size: 13px;
+}
+
+#footer-area .footer-links ul {
+    padding-right: 0;
+    margin-top: 20px;
+}
+
+#footer-area .address span {
+    display: block;
+    font-family: 'Cairo', sans-serif !important;
+}
+
+#footer-area .mobandmail span>b {
+    color: #d2d8dc;
+    font-family: 'Cairo', sans-serif;
+}
+
+.headline_inner .left-align {
+    text-align: right;
+}
+
+.headline_inner .right-align {
+    text-align: left;
+}
+
+.headline_inner .left-align span {
+    font-size: 11px;
+    font-family: 'Cairo', sans-serif;
+}
+
+.headline_inner .right-align .breadcrumbs_inner_link {
+    font-size: 12px;
+    font-family: 'Cairo', sans-serif;
+}
+
+.domain-section-non-index h5 {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #05253a;
+    letter-spacing: 0;
+}
+
+.domain-section-non-index h5>span {
+    font-size: 12px;
+    font-family: 'Cairo', sans-serif;
+}
+
+.domain-search-error .titte-error-domain h5 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #F44336;
+}
+
+.domain-search-error .suggestion-domains h5 {
+    text-align: right;
+    margin-top: 0;
+    font-weight: bold;
+    font-size: 12px;
+    margin-bottom: 25px;
+}
+
+.domain-search-error .suggestion-domains p>span {
+    float: right;
+}
+
+.domain-search-error .suggestion-domains p>a {
+    float: left;
+	font-family: 'Cairo', sans-serif;
+    font-size: 11px;
+}
+
+.domain-search-info-plus h5:after {
+    content: '+';
+    left: -30px;
+    right: auto;
+}
+
+.domain-search-info-plus .thelast:after {
+    left: -18px;
+    right: auto;
+}
+
+
+.domain-search-info-plus h5 {
+    font-size: 23px;
+}
+
+
+.domain-search-error .titte-error-domain p {
+    font-family: 'Cairo', sans-serif;
+}
+
+.domain-search-info-plus h5>span {
+    font-size: 13px;
+    font-family: 'Cairo', sans-serif;
+}
+
+.info-sec-serv-fet h5>span {
+    display: block;
+    font-weight: 100;
+    font-size: 13px;
+    margin-top: 5px;
+    text-transform: capitalize;
+    color: rgba(5, 37, 58, 0.67);
+    margin-left: 0;
+    font-family: 'Cairo', sans-serif;
+}
+
+
+.info-sec-serv-fet p {
+    display: block;
+    font-weight: 100;
+    font-size: 12.5px;
+    margin-top: 5px;
+    text-transform: capitalize;
+    color: rgba(2, 14, 23, 0.64);
+    padding: 1px 10px;
+    font-family: 'Cairo', sans-serif;
+}
+
+.info-sec-serv-fet span {
+    display: block;
+    margin-top: 30px;
+    margin-left: 10px;
+    font-weight: 100;
+    font-size: 13px;
+    font-family: 'Cairo', sans-serif;
+}
+
+
+.info-sec-serv-fet p>i {
+    margin-right: 0;
+    margin-left: 8px;
+}
+
+.not-found h1>span {
+    display: block;
+    font-weight: 100;
+    font-size: 17px;
+    margin-top: 7px;
+    opacity: 0.5;
+    font-family: 'Cairo', sans-serif !important;
+    text-transform: none;
+}
+
+.landing-hosting p {
+    display: block;
+    font-weight: 100;
+    text-transform: lowercase;
+    font-size: 12px;
+    margin: 18px 0;
+    line-height: 25px;
+    text-align: right;
+    color: #7f909a;
+    font-family: 'Cairo', sans-serif;
+}
+
+
+.plans-no-index-info p {
+    font-size: 12px;
+    text-align: right;
+    color: #7f909a;
+    font-family: 'Cairo', sans-serif;
+}
+
+.non-index-futr-host h5 {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #05253a;
+}
+
+.non-index-futr-host p {
+    display: block;
+    font-weight: 100;
+    font-size: 12px;
+    color: #8a969e;
+    font-family: 'Cairo', sans-serif;
+}
+
+.spsclone-non-plans p>i {
+    margin-left: 7px;
+	margin-right: 0px;
+    font-size: 16px;
+    color: #86c724;
+}
+
+.spsclone-non-plans p {
+    display: block;
+    font-weight: normal;
+    font-size: 12px;
+    padding: 5px;
+    margin-bottom: 0;
+    color: #b9bbc7;
+    text-transform: uppercase;
+    text-align: right;
+    padding-left: 0;
+    padding-right: 43px;
+    font-family: 'Cairo', sans-serif;
+}
+
+.plans-non .info-palns span {
+    display: block;
+    font-weight: normal;
+    font-size: 12px;
+    padding: 6px;
+    border-bottom: 1px solid rgba(51, 51, 51, 0.06);
+    color: #b9bbc7;
+    font-family: 'Cairo', sans-serif;
+}
+
+
+.plans-non .price-pal .onrs {
+    font-weight: bold;
+    font-size: 12px;
+    font-family: 'Cairo', sans-serif;
+}
+
+.plans-non .btn-ordr-plan {
+    background: #28bab9;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 33px;
+    border-radius: 45px;
+    margin-top: 20px;
+    font-size: 11px;
+    display: -webkit-inline-box;
+    font-family: 'Cairo', sans-serif;
+}
+
+.whyus-non-index h5 {
+    letter-spacing: 0;
+}
+
+
+#page-helf-photo .right-helf-of-page h5 {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #05253a;
+}
+
+#page-helf-photo .right-helf-of-page p {
+    display: block;
+    font-weight: 100;
+    font-size: 14px;
+    text-transform: capitalize;
+    color: rgba(5, 37, 58, 0.67);
+    margin-top: 20px;
+    line-height: 25px;
+    font-family: 'Cairo', sans-serif;
+}
+
+#page-helf-photo .right-helf-of-page .feturest-of-helf span {
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    font-weight: 100;
+    font-size: 13px;
+    text-align: right;
+    color: #05253a;
+    font-family: 'Cairo', sans-serif;
+}
+
+.why-tittle span {
+    font-family: 'Cairo', sans-serif;
+}
+
+
+#page-helf-photo {
+    padding: 0;
+}
+
+.contact-tittle h5 {
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: rgba(7, 38, 59, 0.75);
+    letter-spacing: 0;
+}
+
+.contact-tittle h3 {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #05253a;
+    text-align: center;
+}
+
+.contact-tittle h3>span {
+    display: block;
+    font-weight: 100;
+    font-size: 13px;
+    margin-top: 5px;
+    text-transform: capitalize;
+    color: rgba(5, 37, 58, 0.67);
+    font-family: 'Cairo', sans-serif;
+}
+
+.way-to-contact small {
+    display: block;
+    margin-top: 80px;
+    font-weight: 100;
+    text-transform: inherit;
+    font-size: 13px;
+    color: #798892;
+    font-family: 'Cairo', sans-serif;
+}
+
+.side-bar-answer h3>span {
+    font-weight: bold;
+    text-transform: uppercase;
+    background: #FFC107;
+    padding: 6px 10px;
+    border-radius: 45px;
+    color: #fff;
+    margin-right: 0;
+    margin-left: 13px;
+}
+
+.side-bar-answer h3 {
+    font-weight: bold;
+    color: #05253a;
+    font-size: 13px;
+    margin-bottom: 25px;
+}
+
+.side-bar-answer p {
+    display: block;
+    font-weight: 100;
+    font-size: 13px;
+    margin-top: 5px;
+    text-transform: capitalize;
+    color: rgba(5, 37, 58, 0.67);
+    line-height: 24px;
+    font-family: 'Cairo', sans-serif;
+}
+
+.side-bar-quastions li>a {
+    font-size: 12px;
+    font-family: 'Cairo', sans-serif;
+}
